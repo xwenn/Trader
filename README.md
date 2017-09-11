@@ -10,7 +10,7 @@
 ## Functions supported by this jar file:
 
 **N  - Create a new basket and give it a specific name**
-Create a new basket in the model and specify the name and creation date. If a basket with the same name has been created before, or if the specified creation date is not a business day, creation fails and option menu prompts.
+  Create a new basket in the model and specify the name and creation date. If a basket with the same name has been created before, or if the specified creation date is not a business day, creation fails and option menu prompts.
 
 
 **A  - Add shares of stocks to an existing basket using its ticker symbol**
