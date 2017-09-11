@@ -1,8 +1,7 @@
-# Trader program 
-
+# Trader program  
 **version 1.0 06/26/2017**
 
-## USAGE NOTES:
+### USAGE NOTES:
 
 - To run this jar file, open a command-prompt/terminal and navigate to that folder. Then type
   `java -jar Trader.jar` and press ENTER.
