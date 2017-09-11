@@ -1,5 +1,5 @@
 # Trader program  
-**version 1.0 06/26/2017**
+**version 1.0    06/26/2017**
 
 ### USAGE NOTES:  
 
