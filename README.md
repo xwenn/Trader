@@ -3,10 +3,10 @@
 
 ### USAGE NOTES:  
 
-To run this jar file, open a command-prompt/terminal and navigate to that folder. Then type `java -jar Trader.jar` and press ENTER.
+To run the jar file, open a command-prompt/terminal and navigate to that folder. Then type `java -jar Trader.jar` and press ENTER.
 
 
-### Functions supported by this jar file:
+### Functions supported by the jar file:
 
 **N  - Create a new basket and give it a specific name**  
 Create a new basket in the model and specify the name and creation date. If a basket with the same name has been created before, or if the specified creation date is not a business day, creation fails and option menu prompts.
