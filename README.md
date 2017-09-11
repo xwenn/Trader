@@ -13,29 +13,36 @@
 
 Create a new basket in the model and specify the name and creation date. If a basket with the same name has been created before, or if the specified creation date is not a business day, creation fails and option menu prompts.
 
+
 **A  - Add shares of stocks to an existing basket using its ticker symbol**
 
 Add the specified amount of share to a specified basket. If the stock symbol is invalid, or if the specified share is negative, or if the specified basket does not exist, this operation fails and option menu prompts.
+
 
 **P  - Print the contents and values of an existing basket**
 
 Print the contents and values of an existing basket. If the basket does not exist, this operation fails and option menu prompts.
 
+
 **TB - Trend of a particular basket within a specific data range**
 
 Return the trend of a specified basket in certain date range. Positive value means this basket trends up in the given date range. If the date range is a weekend or a holiday, or if the specified basket does not exist, this operation fails and option menu prompts.
+
 
 **TS - Trend of a particular stock within a specific data range**
 
 Return the trend of a specified stock in certain date range. Positive value means this stock trends up in the given date range. If the date range is a weekend or a holiday, or if the specified stock is invalid, this operation fails and option menu prompts.
 
+
 **G  - Open graphical view**
 
 Prompt menu that specify the operations supported by the graphical view. Functions of the graphical view are explained below.
 
+
 **I - Try different investment strategies**
 
 Prompt the menu that allows the user to do simulation on different investment strategies. Functions of the simulation are explained below.
+
 
 **Q  - Quit program**
 
