@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Trader">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Trader_jar/Trader.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
