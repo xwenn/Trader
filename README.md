@@ -1,12 +1,12 @@
 # Trader program  
 **version 1.0 06/26/2017**
 
-### USAGE NOTES:
+### USAGE NOTES:  
 
-- To run this jar file, open a command-prompt/terminal and navigate to that folder. Then type
-  `java -jar Trader.jar` and press ENTER.
+To run this jar file, open a command-prompt/terminal and navigate to that folder. Then type `java -jar Trader.jar` and press ENTER.
 
-## Functions supported by this jar file:
+
+### Functions supported by this jar file:
 
 **N  - Create a new basket and give it a specific name**  
 Create a new basket in the model and specify the name and creation date. If a basket with the same name has been created before, or if the specified creation date is not a business day, creation fails and option menu prompts.
@@ -40,7 +40,7 @@ Prompt the menu that allows the user to do simulation on different investment st
 Quick the main program.
 
 
-## Functions supported by the graphical view:
+### Functions supported by the graphical view:
 
 **1 - add/remove a stock to visualize**  
 Add a stock to or remove a stock from the graphical view. If the stock is invalid, or if the user does not enter the content required by the prompt, this operation fails and graphical option menu prompts.
@@ -73,7 +73,7 @@ Plot a blank graph and clear stocks and baskets that needs to be plotted.
 Quick graphical view and return to the main menu.
 
 
-## Functions supported by simulation:
+### Functions supported by simulation:
 
 Ask the user for the following information and return the profit that would be earned if the
 specified strategy were followed.
