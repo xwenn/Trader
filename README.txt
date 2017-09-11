@@ -1,94 +1,95 @@
-Trader program version 1.0 06/26/2017
+# Trader program 
+## version 1.0 06/26/2017
 
 USAGE NOTES:
-- To run this jar file, open a command-prompt/terminal and navigate to that folder. Now type
-  java -jar NameOfJARFile.jar and press ENTER.
+- To run this jar file, open a command-prompt/terminal and navigate to that folder. Then type
+  `java -jar Trader.jar` and press ENTER.
 
 Functions supported by this jar file:
-N  - Create a new basket and give it a specific name
+*N  - Create a new basket and give it a specific name*
      Create a new basket in the model and specify the name and creation date. If a basket with the
      same name has been created before, or if the specified creation date is not a business day,
      creation fails and option menu prompts.
 
-A  - Add shares of stocks to an existing basket using its ticker symbol
+*A  - Add shares of stocks to an existing basket using its ticker symbol*
      Add the specified amount of share to a specified basket. If the stock symbol is invalid, or if
      the specified share is negative, or if the specified basket does not exist, this operation
      fails and option menu prompts.
 
-P  - Print the contents and values of an existing basket
+*P  - Print the contents and values of an existing basket*
      Print the contents and values of an existing basket. If the basket does not exist, this
      operation fails and option menu prompts.
 
-TB - Trend of a particular basket within a specific data range
+*TB - Trend of a particular basket within a specific data range*
      Return the trend of a specified basket in certain date range. Positive value means this basket
      trends up in the given date range. If the date range is a weekend or a holiday, or if the
      specified basket does not exist, this operation fails and option menu prompts.
 
-TS - Trend of a particular stock within a specific data range
+*TS - Trend of a particular stock within a specific data range*
      Return the trend of a specified stock in certain date range. Positive value means this stock
      trends up in the given date range. If the date range is a weekend or a holiday, or if the
      specified stock is invalid, this operation fails and option menu prompts.
 
-G  - Open graphical view
+*G  - Open graphical view*
      Prompt menu that specify the operations supported by the graphical view. Functions of the
      graphical view are explained below.
 
-I - Try different investment strategies
+*I - Try different investment strategies*
     Prompt the menu that allows the user to do simulation on different investment strategies.
     Functions of the simulation are explained below.
 
-Q  - Quit program
+*Q  - Quit program*
      Quick the main program.
 
 
 Functions supported by the graphical view:
-1 - add/remove a stock to visualize
+*1 - add/remove a stock to visualize*
     Add a stock to or remove a stock from the graphical view. If the stock is invalid, or if the
     user does not enter the content required by the prompt, this operation fails and graphical
     option menu prompts.
 
-2 - add/remove one of your baskets to visualize
+*2 - add/remove one of your baskets to visualize*
     Add a basket to or remove a basket from the graphical view. If the basket has not been created,
     or if the user does not enter the content required by the prompt, this operation fails and
     graphical option menu prompts.
 
-3 - plot historical prices alone for the chosen stocks and baskets
+*3 - plot historical prices alone for the chosen stocks and baskets*
     Ask the user for a date range and show the historical prices of the chosen stocks and baskets
     in the date range. If the given end date is before the given start date, or if the source file
     is not read correctly, an blank graph will appear and graphical option menu prompts.
 
-4 - plot 50-day Moving Average alone for the chosen stocks and baskets
+*4 - plot 50-day Moving Average alone for the chosen stocks and baskets*
     Ask the user for a date range and show the 50-day moving averages of the chosen stocks and
     baskets in the date range. If the given end date is before the given start date, or if the
     source file is not read correctly, an blank graph will appear and graphical option menu prompts.
 
-5 - plot 200-day moving average alone for the chosen stocks and baskets
+*5 - plot 200-day moving average alone for the chosen stocks and baskets*
     Ask the user for a date range and show the 200-day moving averages of the chosen stocks and
     baskets in the date range. If the given end date is before the given start date, or if the
     source file is not read correctly, an blank graph will appear and graphical option menu prompts.
 
-6 - plot historical prices AND 50-day moving average
+*6 - plot historical prices AND 50-day moving average*
     Ask the user for a date range and show the historical prices and 50-day moving averages of
     the chosen stocks and baskets in the date range. If the given end date is before the given
     start date, or if the source file is not read correctly, an blank graph will appear and
     graphical option menu prompts.
 
-7 - plot historical prices AND 200-day moving average
+*7 - plot historical prices AND 200-day moving average*
     Ask the user for a date range and show the historical prices and 200-day moving averages of
     the chosen stocks and baskets in the date range. If the given end date is before the given
     start date, or if the source file is not read correctly, an blank graph will appear and
     graphical option menu prompts.
 
-8 - plot 50-day moving average AND 200-day moving average
+*8 - plot 50-day moving average AND 200-day moving average*
     Ask the user for a date range and show the 50-day and 200-day moving averages of
     the chosen stocks and baskets in the date range. If the given end date is before the given
     start date, or if the source file is not read correctly, an blank graph will appear and
     graphical option menu prompts.
 
-9 - draw blank graph
+*9 - draw blank graph*
     Plot a blank graph and clear stocks and baskets that needs to be plotted.
 
-0 - Quit the program.
+*0 - Quit the program*
     Quick graphical view and return to the main menu.
 
 
